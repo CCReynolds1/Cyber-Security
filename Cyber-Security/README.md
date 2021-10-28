@@ -100,11 +100,11 @@ SSH into the control node and follow the steps below:
 - Update the Hosts file to include the IP addresses of your web servers. Add another group labeled [ELK] and add the IP for the server below it.
 - Run the DVWA-playbook, and navigate to http://20.83.246.246/setup.php (use your public ip) to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 The Playbook files are:
 - elk-playbook.yml - used to install the Elk Server
     - filebeat-playbook.yml - used to install filebeat on the DVWA server and the Elk Server.
     - metricbeat-playbook.yml - used to install metricbeat on the DVWA server and the Elk Server.
+    
 Where do you copy them? 
 /etc/ansible
 
